@@ -20,6 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        Twitter.sharedInstance().logIn(completion: { (session, error) in
+            if let error = error {
+                print("error: \(error.localizedDescription)");
+                return
+            }
+            if let session = session {
+                print("signed in as \(session.userName)");
+            }
+        })
+    }
+    
 }
 

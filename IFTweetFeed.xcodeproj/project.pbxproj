@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		42BFCE5A2114E044EC56CCCA /* Pods_IFTweetFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABAEB5E39CA070C6C632414 /* Pods_IFTweetFeed.framework */; };
 		45AA5CAE11B4868D753DAF04 /* Pods_IFTweetFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094C3288848F4A7D97EBD740 /* Pods_IFTweetFeedUITests.framework */; };
+		8D1E02DB1FDF84090083FAE2 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */; };
 		8D6B45001FDF7E0C00D653B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */; };
 		8D6B45021FDF7E0C00D653B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B45011FDF7E0C00D653B4 /* ViewController.swift */; };
 		8D6B45051FDF7E0C00D653B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B45031FDF7E0C00D653B4 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		797D774D940D5A40776B41C1 /* Pods-IFTweetFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		85021D305E4D69FD8E6DD419 /* Pods-IFTweetFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedTests/Pods-IFTweetFeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFTweetFeed-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		8D6B44FC1FDF7E0C00D653B4 /* IFTweetFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTweetFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6B45011FDF7E0C00D653B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D1E02DB1FDF84090083FAE2 /* SafariServices.framework in Frameworks */,
 				42BFCE5A2114E044EC56CCCA /* Pods_IFTweetFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +109,7 @@
 		207A5D604D9552C21FBED6D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */,
 				DABAEB5E39CA070C6C632414 /* Pods_IFTweetFeed.framework */,
 				F7571844DC005B448422BF1F /* Pods_IFTweetFeedTests.framework */,
 				094C3288848F4A7D97EBD740 /* Pods_IFTweetFeedUITests.framework */,
