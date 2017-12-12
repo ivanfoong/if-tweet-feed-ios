@@ -42,6 +42,7 @@
 		5DFA4E8E75F024DDB5DF836B /* Pods-IFTweetFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed.release.xcconfig"; sourceTree = "<group>"; };
 		797D774D940D5A40776B41C1 /* Pods-IFTweetFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		85021D305E4D69FD8E6DD419 /* Pods-IFTweetFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedTests/Pods-IFTweetFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFTweetFeed-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D6B44FC1FDF7E0C00D653B4 /* IFTweetFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTweetFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6B45011FDF7E0C00D653B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +144,7 @@
 				8D6B45061FDF7E0C00D653B4 /* Assets.xcassets */,
 				8D6B45081FDF7E0C00D653B4 /* LaunchScreen.storyboard */,
 				8D6B450B1FDF7E0C00D653B4 /* Info.plist */,
+				8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */,
 			);
 			path = IFTweetFeed;
 			sourceTree = "<group>";
@@ -632,6 +634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanfoong.IFTweetFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IFTweetFeed/IFTweetFeed-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -647,6 +650,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ivanfoong.IFTweetFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IFTweetFeed/IFTweetFeed-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
