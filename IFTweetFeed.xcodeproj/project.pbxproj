@@ -10,6 +10,9 @@
 		42BFCE5A2114E044EC56CCCA /* Pods_IFTweetFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABAEB5E39CA070C6C632414 /* Pods_IFTweetFeed.framework */; };
 		45AA5CAE11B4868D753DAF04 /* Pods_IFTweetFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094C3288848F4A7D97EBD740 /* Pods_IFTweetFeedUITests.framework */; };
 		8D1E02DB1FDF84090083FAE2 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */; };
+		8D4B49E61FDFA464009D7909 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B49E51FDFA464009D7909 /* FeedsViewController.swift */; };
+		8D4B49EB1FDFA5F8009D7909 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B49E91FDFA5F8009D7909 /* FeedTableViewCell.swift */; };
+		8D4B49EC1FDFA5F8009D7909 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D4B49EA1FDFA5F8009D7909 /* FeedTableViewCell.xib */; };
 		8D6B45001FDF7E0C00D653B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */; };
 		8D6B45021FDF7E0C00D653B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B45011FDF7E0C00D653B4 /* LoginViewController.swift */; };
 		8D6B45051FDF7E0C00D653B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B45031FDF7E0C00D653B4 /* Main.storyboard */; };
@@ -17,6 +20,7 @@
 		8D6B450A1FDF7E0C00D653B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6B45081FDF7E0C00D653B4 /* LaunchScreen.storyboard */; };
 		8D6B45151FDF7E0C00D653B4 /* IFTweetFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B45141FDF7E0C00D653B4 /* IFTweetFeedTests.swift */; };
 		8D6B45201FDF7E0C00D653B4 /* IFTweetFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6B451F1FDF7E0C00D653B4 /* IFTweetFeedUITests.swift */; };
+		8DA6B9EA1FE8BC3F003EFB12 /* DateFormatterTimeSince.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6B9E91FE8BC3F003EFB12 /* DateFormatterTimeSince.swift */; };
 		D3A8BAF5BA14D8C221ED202F /* Pods_IFTweetFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7571844DC005B448422BF1F /* Pods_IFTweetFeedTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,9 @@
 		85021D305E4D69FD8E6DD419 /* Pods-IFTweetFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedTests/Pods-IFTweetFeedTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFTweetFeed-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		8D4B49E51FDFA464009D7909 /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		8D4B49E91FDFA5F8009D7909 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		8D4B49EA1FDFA5F8009D7909 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
 		8D6B44FC1FDF7E0C00D653B4 /* IFTweetFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IFTweetFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D6B45011FDF7E0C00D653B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 		8D6B451B1FDF7E0C00D653B4 /* IFTweetFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IFTweetFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D6B451F1FDF7E0C00D653B4 /* IFTweetFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFTweetFeedUITests.swift; sourceTree = "<group>"; };
 		8D6B45211FDF7E0C00D653B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA6B9E91FE8BC3F003EFB12 /* DateFormatterTimeSince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTimeSince.swift; sourceTree = "<group>"; };
 		A69A86D7D654D16DA5835D2B /* Pods-IFTweetFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedUITests/Pods-IFTweetFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA218A3FAE88844D08476F8F /* Pods-IFTweetFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedTests/Pods-IFTweetFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DABAEB5E39CA070C6C632414 /* Pods_IFTweetFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IFTweetFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,11 +152,15 @@
 			children = (
 				8D6B44FF1FDF7E0C00D653B4 /* AppDelegate.swift */,
 				8D6B45011FDF7E0C00D653B4 /* LoginViewController.swift */,
+				8D4B49E51FDFA464009D7909 /* FeedsViewController.swift */,
 				8D6B45031FDF7E0C00D653B4 /* Main.storyboard */,
 				8D6B45061FDF7E0C00D653B4 /* Assets.xcassets */,
 				8D6B45081FDF7E0C00D653B4 /* LaunchScreen.storyboard */,
 				8D6B450B1FDF7E0C00D653B4 /* Info.plist */,
 				8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */,
+				8D4B49E91FDFA5F8009D7909 /* FeedTableViewCell.swift */,
+				8D4B49EA1FDFA5F8009D7909 /* FeedTableViewCell.xib */,
+				8DA6B9E91FE8BC3F003EFB12 /* DateFormatterTimeSince.swift */,
 			);
 			path = IFTweetFeed;
 			sourceTree = "<group>";
@@ -288,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D6B450A1FDF7E0C00D653B4 /* LaunchScreen.storyboard in Resources */,
+				8D4B49EC1FDFA5F8009D7909 /* FeedTableViewCell.xib in Resources */,
 				8D6B45071FDF7E0C00D653B4 /* Assets.xcassets in Resources */,
 				8D6B45051FDF7E0C00D653B4 /* Main.storyboard in Resources */,
 			);
@@ -352,9 +365,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -465,7 +481,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4B49E61FDFA464009D7909 /* FeedsViewController.swift in Sources */,
+				8D4B49EB1FDFA5F8009D7909 /* FeedTableViewCell.swift in Sources */,
 				8D6B45021FDF7E0C00D653B4 /* LoginViewController.swift in Sources */,
+				8DA6B9EA1FE8BC3F003EFB12 /* DateFormatterTimeSince.swift in Sources */,
 				8D6B45001FDF7E0C00D653B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

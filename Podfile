@@ -7,6 +7,7 @@ target 'IFTweetFeed' do
 
   # Pods for IFTweetFeed
   pod 'TwitterKit'
+  pod 'TTTAttributedLabel'
 
   target 'IFTweetFeedTests' do
     inherit! :search_paths
