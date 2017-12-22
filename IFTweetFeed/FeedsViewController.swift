@@ -92,11 +92,7 @@ extension FeedsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FeedTableViewCell", for: indexPath) as! FeedTableViewCell
         if indexPath.row < self.tweets.count {
             let tweet = self.tweets[indexPath.row]
-            cell.usernameLabel.text = "@\(tweet.author.screenName)"
-            cell.contentLabel.text = tweet.text
-            cell.contentLabel.delegate = self
-            let dateFormatter = DateFormatter()
-            cell.timestampLabel.text = dateFormatter.timeSince(from: tweet.createdAt)
+            cell.configure(for: tweet, with: self)
         }
         return cell
     }

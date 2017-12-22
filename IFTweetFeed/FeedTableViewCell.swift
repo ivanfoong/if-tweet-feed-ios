@@ -27,4 +27,12 @@ class FeedTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configure(for tweet: TWTRTweet, with attributedLabelDelegate: TTTAttributedLabelDelegate) {
+        self.usernameLabel.text = "@\(tweet.author.screenName)"
+        self.contentLabel.text = tweet.text
+        self.contentLabel.delegate = attributedLabelDelegate
+        let dateFormatter = DateFormatter()
+        self.timestampLabel.text = dateFormatter.timeSince(from: tweet.createdAt)
+    }
+    
 }
