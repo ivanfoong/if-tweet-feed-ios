@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		42BFCE5A2114E044EC56CCCA /* Pods_IFTweetFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABAEB5E39CA070C6C632414 /* Pods_IFTweetFeed.framework */; };
 		45AA5CAE11B4868D753DAF04 /* Pods_IFTweetFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094C3288848F4A7D97EBD740 /* Pods_IFTweetFeedUITests.framework */; };
+		8D02D7311FECA63E006ECFA5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D7301FECA63E006ECFA5 /* LoginViewModel.swift */; };
+		8D02D7331FECAA4E006ECFA5 /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D7321FECAA4E006ECFA5 /* LoginViewModelTests.swift */; };
+		8D02D7351FECB12E006ECFA5 /* TwitterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D7341FECB12E006ECFA5 /* TwitterService.swift */; };
+		8D02D7371FECDC85006ECFA5 /* FeedsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D02D7361FECDC85006ECFA5 /* FeedsViewModel.swift */; };
+		8D1DDC561FFB2C3300BBA60F /* FeedsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1DDC551FFB2C3300BBA60F /* FeedsViewModelTests.swift */; };
 		8D1E02DB1FDF84090083FAE2 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */; };
 		8D4B49E61FDFA464009D7909 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B49E51FDFA464009D7909 /* FeedsViewController.swift */; };
 		8D4B49EB1FDFA5F8009D7909 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B49E91FDFA5F8009D7909 /* FeedTableViewCell.swift */; };
@@ -47,6 +52,11 @@
 		5DFA4E8E75F024DDB5DF836B /* Pods-IFTweetFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed.release.xcconfig"; sourceTree = "<group>"; };
 		797D774D940D5A40776B41C1 /* Pods-IFTweetFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeed/Pods-IFTweetFeed.debug.xcconfig"; sourceTree = "<group>"; };
 		85021D305E4D69FD8E6DD419 /* Pods-IFTweetFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IFTweetFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IFTweetFeedTests/Pods-IFTweetFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D02D7301FECA63E006ECFA5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8D02D7321FECAA4E006ECFA5 /* LoginViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		8D02D7341FECB12E006ECFA5 /* TwitterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterService.swift; sourceTree = "<group>"; };
+		8D02D7361FECDC85006ECFA5 /* FeedsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewModel.swift; sourceTree = "<group>"; };
+		8D1DDC551FFB2C3300BBA60F /* FeedsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewModelTests.swift; sourceTree = "<group>"; };
 		8D1E02D91FDF82420083FAE2 /* IFTweetFeed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFTweetFeed-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D1E02DA1FDF84090083FAE2 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		8D4B49E51FDFA464009D7909 /* FeedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
@@ -161,6 +171,9 @@
 				8D4B49E91FDFA5F8009D7909 /* FeedTableViewCell.swift */,
 				8D4B49EA1FDFA5F8009D7909 /* FeedTableViewCell.xib */,
 				8DA6B9E91FE8BC3F003EFB12 /* DateFormatterTimeSince.swift */,
+				8D02D7301FECA63E006ECFA5 /* LoginViewModel.swift */,
+				8D02D7341FECB12E006ECFA5 /* TwitterService.swift */,
+				8D02D7361FECDC85006ECFA5 /* FeedsViewModel.swift */,
 			);
 			path = IFTweetFeed;
 			sourceTree = "<group>";
@@ -170,6 +183,8 @@
 			children = (
 				8D6B45141FDF7E0C00D653B4 /* IFTweetFeedTests.swift */,
 				8D6B45161FDF7E0C00D653B4 /* Info.plist */,
+				8D02D7321FECAA4E006ECFA5 /* LoginViewModelTests.swift */,
+				8D1DDC551FFB2C3300BBA60F /* FeedsViewModelTests.swift */,
 			);
 			path = IFTweetFeedTests;
 			sourceTree = "<group>";
@@ -482,7 +497,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D4B49E61FDFA464009D7909 /* FeedsViewController.swift in Sources */,
+				8D02D7351FECB12E006ECFA5 /* TwitterService.swift in Sources */,
+				8D02D7371FECDC85006ECFA5 /* FeedsViewModel.swift in Sources */,
 				8D4B49EB1FDFA5F8009D7909 /* FeedTableViewCell.swift in Sources */,
+				8D02D7311FECA63E006ECFA5 /* LoginViewModel.swift in Sources */,
 				8D6B45021FDF7E0C00D653B4 /* LoginViewController.swift in Sources */,
 				8DA6B9EA1FE8BC3F003EFB12 /* DateFormatterTimeSince.swift in Sources */,
 				8D6B45001FDF7E0C00D653B4 /* AppDelegate.swift in Sources */,
@@ -493,6 +511,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D02D7331FECAA4E006ECFA5 /* LoginViewModelTests.swift in Sources */,
+				8D1DDC561FFB2C3300BBA60F /* FeedsViewModelTests.swift in Sources */,
 				8D6B45151FDF7E0C00D653B4 /* IFTweetFeedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
